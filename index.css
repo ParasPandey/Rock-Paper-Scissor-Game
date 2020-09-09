@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(46, 109, 246);
+}
+#home h1{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 4rem;
+    margin: 3rem;
+}
+h2{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 1rem 0px;
+}
+.row{
+    text-align: center;
+    border-bottom: 1px solid rgb(122, 203, 241);
+}
+.card img{
+    background-color: #2e6df6;
+    padding-top: .5rem;
+}
+.img{
+    width: 50%;
+}
+.card-body{
+    background-color: rgb(46, 109, 246);
+    padding: .5rem;
+    text-align: center;
+}
+.double{
+    height:25vh;
+}
+.after{
+    border: 2px solid #070707;
+    background-color: white;
+}
+#card5
+{    
+    border: 1px solid black;
+    margin-top:50px;
+   background-color: white;
+}
+#center{
+    text-align: center;
+}
+#center p{
+    font-size: .9rem;
+    color: #000000;
+}
+#center a{
+    color: #000000;
+    text-decoration: underline;
+}
+#center a:hover{
+    color: cornsilk;
+}
+@media only screen and (max-width: 900px) {
+    #home h1{
+        font-size: 3rem;
+    }
+    .img{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .img{
+        width: 70%;
+    }
+     h3 {
+        font-size: 1.5rem;
+    }
+    .btn{
+        padding: .1rem .7rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    #home h1{
+        font-size: 2rem;
+    }
+    .btn{
+        padding: .01rem .1rem;
+    }
+    #center p{
+        font-size: .6rem;
+        color: #000000;
+    }
+}
